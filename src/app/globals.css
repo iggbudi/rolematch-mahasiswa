@@ -1,26 +1,43 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  font-family: var(--font-geist-sans);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom styles for the questionnaire */
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.question-card {
+  background: #fafbff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-bottom: 16px;
+}
+
+/* Old .scale styles removed - now using Tailwind classes directly in page.tsx for better mobile control */
+
+.result-box {
+  background: #f8f9ff;
+  border: 3px solid #667eea;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.ai-result {
+  background: white;
+  border: 2px solid #10b981;
+  border-radius: 12px;
+  padding: 18px;
+  white-space: pre-wrap;
+  line-height: 1.65;
 }
