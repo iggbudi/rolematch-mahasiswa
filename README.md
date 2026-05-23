@@ -147,6 +147,18 @@ Setelah selesai, aplikasi akan otomatis di-deploy dan bisa diakses secara publik
 
 ---
 
+## ⚠️ Disclaimer
+
+**Hasil analisis yang diberikan oleh aplikasi ini dibuat oleh Artificial Intelligence (AI) menggunakan layanan Groq dengan model `llama-3.3-70b-versatile`.**
+
+Meskipun sistem ini telah dirancang untuk memberikan rekomendasi yang relevan dan bermanfaat berdasarkan jawaban pengguna, **hasil analisis tetap memiliki keterbatasan** dan **bisa saja tidak akurat**, tidak lengkap, atau bersifat umum.
+
+Rekomendasi peran di organisasi kampus maupun bidang karir yang diberikan **bukan merupakan saran profesional** dan **tidak boleh dijadikan sebagai satu-satunya dasar pengambilan keputusan**.
+
+Gunakan hasil analisis ini hanya sebagai **bahan refleksi dan pertimbangan tambahan**. Keputusan akhir tetap sepenuhnya menjadi tanggung jawab pengguna.
+
+---
+
 ## 📄 Lisensi
 
 Project ini dibuat untuk keperluan edukasi dan pengembangan diri mahasiswa.

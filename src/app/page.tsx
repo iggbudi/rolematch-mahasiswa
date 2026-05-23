@@ -429,6 +429,13 @@ export default function Kuesioner() {
                     <p key={i} className="mb-2 last:mb-0">{line}</p>
                   ))}
                 </div>
+
+                {/* Disclaimer AI */}
+                <div className="mt-3 px-1 text-[11px] text-zinc-500 leading-snug">
+                  <strong>Catatan:</strong> Hasil analisis ini dibuat oleh <strong>AI Groq (model: llama-3.3-70b-versatile)</strong>. 
+                  Meskipun telah dirancang untuk memberikan rekomendasi yang relevan, hasilnya <strong>bisa saja tidak akurat</strong> atau bersifat umum. 
+                  Gunakan sebagai bahan refleksi dan pertimbangan, bukan sebagai keputusan mutlak.
+                </div>
               </div>
             )}
 
